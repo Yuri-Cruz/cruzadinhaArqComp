@@ -1,0 +1,116 @@
+.html {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    margin-bottom: 120px;
+    
+}
+
+.titulo {
+    color: rgb(255, 0, 0);
+    font-family: 'Varela Round', sans-serif;;
+}
+
+.subtitulo {
+    color: rgb(250, 131, 88);
+    font-family: 'Varela Round', sans-serif;;
+}
+
+.cruzadinhaGeral {
+    background-color: rgb(29, 29, 33);
+    border-radius: 8px;
+    height: 530px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    background-image: url(fundoCruzadinha.jpg);
+    border: 2px solid black;
+    
+}
+
+.cruzadinhaGeral td {
+    height: 25px;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.adressbus {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+    display: block;
+}
+
+.memoriademassa {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.ram {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.rom {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.cpu {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.dualcore {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.ula {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.eprom {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.quadcore {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.dma {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.databus {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.cs {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.registradores {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
+
+.flash {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    border: rgb(255, 3, 163) 1px solid;
+}
