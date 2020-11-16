@@ -21,6 +21,79 @@ body{
     font-family: 'Varela Round', sans-serif;;
 }
 
+.start {
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;;;
+    color: white;
+    border: 1px rgb(136, 58, 84) solid
+}
+
+.start:hover {
+    background-image: linear-gradient(to bottom right, rgb(0, 195, 255),rgb(235, 24, 157));
+    border: transparent;
+}
+
+.areaPerguntas {
+    border: 2px  black;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.areaPerguntas button {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    border: 1px rgb(136, 58, 84) solid;
+    border-radius: 8px 
+}
+
+.areaPerguntas button:hover {
+    background-image: linear-gradient(to bottom right, rgb(0, 195, 255),rgb(235, 24, 157));
+    border: transparent;
+}
+
+.inputResposta {
+    background-image: linear-gradient(to bottom right, rgb(238, 238, 238),rgb(238, 151, 206));
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: rgb(255, 0, 43) 2px solid;
+    border-radius: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+}
+
+.div_perguntas {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(153, 227, 250),rgb(255, 177, 227));    
+    border-radius: 8px;
+    color: rgb(255, 0, 212);
+    font-weight: bold;
+}
+
+.div_resultado {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(153, 227, 250),rgb(255, 177, 227));    
+    border-radius: 8px;
+    font-weight: 800;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 191);
+    font-size: large;
+}
+
 .cruzadinhaGeral {
     background-color: rgb(29, 29, 33);
     border-radius: 8px;
@@ -29,8 +102,7 @@ body{
     display: flex;
     justify-content: center;
     background-image: url(fundoCruzadinha.jpg);
-    border: 2px solid black;
-    
+    border: 2px solid rgb(240, 13, 164);  
 }
 
 .cruzadinhaGeral td {
