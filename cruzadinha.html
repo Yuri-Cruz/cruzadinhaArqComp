@@ -13,7 +13,7 @@
     <h1 class="titulo">Cruzadinha</h1>
     <h3 class="subtitulo">Made by: Yuri Cruz and Luiz Bertô</h3>
  
-    <button onclick="comecar()">Começar</button>
+    <button onclick="comecar()" id="play">Começar</button>
 
     <div id="cruzadinhaGeral" class="cruzadinhaGeral" style="display: none;">
         <table>
@@ -588,9 +588,9 @@
     <div class="div_perguntas"></div> <br>
 
 
-    <input placeholder="digite a resposta" class="respostas">
+    <input placeholder="digite a resposta" id="respostas" style="display: none;">
 
-    <button onclick='confirm()'>Confirmar</button> <br>
+    <button onclick='confirm()' id="bot_confirm" style="display: none;">Confirmar</button> <br>
 
     <div class="div_resultado"></div>
 
@@ -600,7 +600,11 @@
 <script>
 
     function comecar(){
-        cruzadinhaGeral.style.display = 'block'
+        cruzadinhaGeral.style.display = 'block';
+        respostas.style.display = 'block';
+        bot_confirm.style.display = 'block';
+        play.style.display = 'none'
+
     }
 
     function confirm() {
