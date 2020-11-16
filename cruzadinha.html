@@ -13,9 +13,9 @@
     <h1 class="titulo">Cruzadinha</h1>
     <h3 class="subtitulo">Made by: Yuri Cruz and Luiz Bertô</h3>
  
-    <button onclick="comecar()"></button>
+    <button onclick="comecar()">Começar</button>
 
-    <div class="cruzadinhaGeral" id="geral">
+    <div id="cruzadinhaGeral" class="cruzadinhaGeral" style="display: none;">
         <table>
             <tbody>
                 <tr>
@@ -600,7 +600,7 @@
 <script>
 
     function comecar(){
-
+        cruzadinhaGeral.style.display = 'block'
     }
 
     function confirm() {
