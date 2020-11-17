@@ -24,8 +24,8 @@ body{
 .start {
     border-radius: 8px;
     background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
-    height: 40px;
-    width: 90px;
+    height: 80px;
+    width: 120px;
     cursor: pointer;
     font-family: 'Varela Round', sans-serif;;;
     color: white;
@@ -43,22 +43,6 @@ body{
     justify-content: center;
     border-radius: 12px;
     text-align: center;
-}
-
-.areaPerguntas button {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
-    height: 40px;
-    width: 90px;
-    cursor: pointer;
-    font-family: 'Varela Round', sans-serif;
-    color: white;
-    border: 1px rgb(136, 58, 84) solid;
-    border-radius: 8px 
-}
-
-.areaPerguntas button:hover {
-    background-image: linear-gradient(to bottom right, rgb(0, 195, 255),rgb(235, 24, 157));
-    border: transparent;
 }
 
 .inputResposta {
@@ -81,17 +65,73 @@ body{
     font-weight: bold;
 }
 
-.div_resultado {
+.confirm {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    border: 1px rgb(136, 58, 84) solid;
+    border-radius: 8px;
+    display: inline-block
+    
+}
+
+.confirm:hover {
+    background-image: linear-gradient(to bottom right, rgb(0, 195, 255),rgb(235, 24, 157));
+    border: transparent;
+}
+
+.restart {
+    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    height: 90px;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    border: 1px rgb(146, 7, 88) solid;
+    border-radius: 15px;
+}
+
+.restart:hover {
+    background-image: linear-gradient(to bottom right, rgb(0, 195, 255),rgb(235, 24, 157));
+    border: transparent;
+}
+
+.div_erro {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
-    background-image: linear-gradient(to bottom right, rgb(153, 227, 250),rgb(255, 177, 227));    
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 0),rgb(187, 9, 9));   
     border-radius: 8px;
     font-weight: 800;
     height: 50px;
     display: flex;
     justify-content: center;
-    color: rgb(255, 0, 191);
+    color: rgb(255, 255, 255);
     font-size: large;
+    display: none;
+    padding-top: 21px;
+}
+
+.divReiniciar {
+    justify-content: center;
+    align-items: center;
+}
+
+.divSucesso {
+    text-align: center;
+}
+
+.divSucesso h1 {
+    font-family: 'Varela Round', sans-serif;;
+    color: rgb(9, 255, 0);
+    text-align: center;
+}
+
+.divSucesso h3 {
+    font-family: 'Varela Round', sans-serif;;
+    color: rgb(9, 255, 0);
 }
 
 .cruzadinhaGeral {
@@ -113,76 +153,90 @@ body{
     font-family: 'Varela Round', sans-serif;
     margin: 0;
     border-radius: 3px;
-    color: rgb(255, 255, 255);
 }
 
 .adressbus {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
-    display: block;
+    color: rgb(17, 162, 206); 
+   
+    
 }
 
 .memoriademassa {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .ram {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .rom {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .cpu {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .dualcore {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .ula {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .eprom {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .quadcore {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .dma {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .databus {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .cs {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .registradores {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
 
 .flash {
-    background-image: linear-gradient(to bottom right, rgb(17, 162, 206),rgb(141, 64, 113));
+    background-color: rgb(17, 162, 206);
     border: rgb(255, 3, 163) 1px solid;
+    color: rgb(17, 162, 206);
 }
